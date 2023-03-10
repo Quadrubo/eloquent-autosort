@@ -2,9 +2,9 @@
 
 namespace Quadrubo\EloquentAutosort;
 
+use Quadrubo\EloquentAutosort\Commands\EloquentAutosortCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Quadrubo\EloquentAutosort\Commands\EloquentAutosortCommand;
 
 class EloquentAutosortServiceProvider extends PackageServiceProvider
 {
