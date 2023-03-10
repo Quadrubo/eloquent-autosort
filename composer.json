@@ -1,17 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "quadrubo/eloquent-autosort",
+    "description": "This is my package eloquent-autosort",
     "keywords": [
-        ":vendor_name",
+        "Quadrubo",
         "laravel",
-        ":package_slug"
+        "eloquent-autosort"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/quadrubo/eloquent-autosort",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Quadrubo",
             "role": "Developer"
         }
     ],
@@ -35,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Quadrubo\\EloquentAutosort\\": "src",
+            "Quadrubo\\EloquentAutosort\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Quadrubo\\EloquentAutosort\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Quadrubo\\EloquentAutosort\\EloquentAutosortServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "EloquentAutosort": "Quadrubo\\EloquentAutosort\\Facades\\EloquentAutosort"
             }
         }
     },
