@@ -7,7 +7,7 @@
 
 This package provides sortable behaviour for Eloquent models using a trait.
 
-The package is based on [spatie/eloquent-sortable](https://github.com/spatie/eloquent-sortable).
+The package is based on [spatie/eloquent-sortable](https://github.com/spatie/eloquent-sortable). See [here](https://github.com/spatie/eloquent-sortable/pull/115#issuecomment-957198291) why this is not merged.
 
 ## Features
 
