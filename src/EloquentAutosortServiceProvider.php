@@ -4,7 +4,6 @@ namespace Quadrubo\EloquentAutosort;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Quadrubo\EloquentAutosort\Commands\EloquentAutosortCommand;
 
 class EloquentAutosortServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +16,6 @@ class EloquentAutosortServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('eloquent-autosort')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_eloquent-autosort_table')
-            ->hasCommand(EloquentAutosortCommand::class);
+            ->hasConfigFile();
     }
 }
